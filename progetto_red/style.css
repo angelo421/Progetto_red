@@ -1,0 +1,160 @@
+header{
+    height: 85vh;
+
+    background-image:url(/mountains2.png), linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.3)),url(/switzerland-862870_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    letter-spacing: 30px;
+    color: #8b0102;
+}
+
+.linetime1{
+    width: 130px;
+    border-bottom: 4px solid #8b0102;
+    padding:5px;
+    /* margin-left: 10px; */
+    position:relative;
+    
+}
+
+.pallino::after{
+    content: ' ';
+    width: 20px;
+    height:20px;
+    background-color:white;
+    border: solid 1px  #8b0102;
+    
+    position: absolute;
+    border-radius:20px;
+    bottom:-12px;
+    left: 55px;
+
+}
+
+.margine{
+    padding-top: 100px;
+}
+
+.colorSfondo{
+    background-color: #ececec;
+}
+
+
+.button-24 {
+    background: #8b0102;
+    border: 1px solid #8b0102;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    width: 150px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .button-24:hover,
+  .button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color:  #8b0102;
+  }
+  
+  .button-24:active {
+    opacity: .5;
+  }
+
+
+  .sfondobottom{
+
+    height: 50vh;
+    background-image:url(/trees2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+  
+  .timeline2{
+    
+        width: 50%;
+        border-left: 4px solid #8b0102;
+        padding-left:10px;
+        margin: 40px;
+        position:relative;
+    
+    }
+    
+    .pallino3::before{
+        content: ' ';
+        width: 20px;
+        height:20px;
+        background-color:white;
+        border: solid 1px  #8b0102;
+    
+        position: absolute;
+        border-radius:20px;
+        left: -12px;
+    }
+  
+    .sfondotimeline{
+        background-color: #FFFFFF;
+        background-image: url(/single.png);
+        /* background-size: ; */
+        background-position-x:right;
+        background-position-y:bottom;
+        background-repeat: no-repeat;
+    }
+
+    .misuraCard{
+        background-color:  #ececec;
+        border: #ececec ;
+    }
+
+    .card-img-top {
+        width: 50%;
+      
+    }
+
+ .bordoimg{
+    border: solid 3px #8b0102;
+ }
+
+ h2,h3,h5{
+    color:  #8b0102;
+ }
+ .backg{
+    
+    background-color: #8b0102
+    ;
+ }
+ a{
+    text-decoration: none;
+    color:white;
+ }
+
+ 
+
+ .sfondofooter{
+    background-image: url(other.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
